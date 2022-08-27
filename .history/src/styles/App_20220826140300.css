@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,400;0,500;1,300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 4rem 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+.d-flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.d-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  font-size: 2.7rem;
+  padding: 1rem 2vw;
+  text-align: center;
+  margin: 2rem 0;
+}
+.cart_btn {
+  background: #0c0b0c;
+}
+.remove_cart {
+  background: red;
+}
+.cart_menu{
+  position:fixed;
+  top:0;
+  right: 0;
+  
+}

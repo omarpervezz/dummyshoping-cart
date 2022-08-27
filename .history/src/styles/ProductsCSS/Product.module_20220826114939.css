@@ -1,0 +1,32 @@
+.grid_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  align-content: center;
+  justify-content: center;
+  grid-gap: 29px;
+}
+.grid_container .box_container {
+  width: 417px;
+  height: 540px;
+  background: #bfc3d5;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1vh 1vw;
+}
+
+.grid_container .box_container .title_container h3 {
+  font-size: 1.2rem !important;
+}
+.grid_container .img_container {
+  text-align: center;
+}
+.grid_container .img_container img {
+  width: 57%;
+  object-fit: cover;
+  height: 15rem;
+  margin: 0.8rem 0;
+}
+.grid_container .

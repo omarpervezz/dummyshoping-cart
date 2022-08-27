@@ -1,0 +1,41 @@
+.grid_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  align-content: center;
+  justify-content: center;
+  grid-gap: 29px;
+}
+.grid_container .box_container {
+  width: 417px;
+  height: 540px;
+  background: #ffffff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 1vh 1vw;
+  box-shadow: 5px 7px 10px rgb(0 0 0 / 50%);
+  border-radius: 0.2rem;
+}
+
+.grid_container .box_container .title_container h3 {
+  font-size: 1.2rem !important;
+  margin-top: 1rem;
+}
+.grid_container .img_container {
+  text-align: center;
+}
+.grid_container .img_container img {
+  width: 57%;
+  object-fit: cover;
+  height: 15rem;
+  margin: 0.8rem 0;
+}
+.grid_container .box_container .description_container article {
+  color: #171616;
+  line-height: 22px;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+.grid_container .box_container .price_container,
+.grid_container .box

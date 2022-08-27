@@ -1,0 +1,18 @@
+.grid_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  align-content: center;
+  justify-content: center;
+  grid-gap: 20px;
+}
+.grid_container div {
+  width: 540px;
+  height: 540px;
+  background: #898888;
+  overflow: hidden;
+}
+.grid_container div img {
+  width: 100%;
+  object-fit: cover;
+}
