@@ -1,0 +1,21 @@
+const initialValue = {
+  products: [],
+  cartItem: [],
+};
+
+const reducer = (state, action) => {
+  switch (action.type) {
+    case "Products_list":
+      return { ...state, products: action.productsList };
+
+    case "CART_ITEM":
+      return {
+        ...state,
+        cartItem: [{ ...action.productsList }, ...state.cartItem],
+      };
+    default:
+      break;
+  }
+};
+
+export { initialValue, reducer };
